@@ -1,0 +1,10 @@
+[server]
+addr = ":50090"
+
+[mongo]
+addrs = ["127.0.0.1:27017"]
+database = "sample"
+username = "root"
+password = "root"
+mechanism = "SCRAM-SHA-1"
+source = "amin"
